@@ -69,54 +69,54 @@ li[lang=ru] {
 
 **HTML**
 <pre lang="html" toggle="no">
-	<code>
-		<article>
-			<section></section>
-		</article>
-	</code>
+    <code>
+        <article>
+            <section></section>
+        </article>
+    </code>
 </pre>
 _This is an note_
 
 **Javascript**
 <pre lang="java" toggle="no">
 (function(){
-	var init, ed, qt, first_init, DOM, el, i, mce = 0;
+    var init, ed, qt, first_init, DOM, el, i, mce = 0;
 };
 </pre>
 
 **Other**
 <pre lang="bash" toggle="no">
 class ntp {
-	case $operatingsystem {
-		centos, sles, redhat: {
-		$service_name = 'ntpd'
-		$conf_template = 'ntp.conf.erb'
-		$default_servers = [ "192.168.100.10","192.168.100.20", ]									}
-					}
-	if $servers == undef {
-		$servers_real = $default_servers
-				}
-		else {
-			$servers_real = $servers
-			}
+    case $operatingsystem {
+        centos, sles, redhat: {
+        $service_name = 'ntpd'
+        $conf_template = 'ntp.conf.erb'
+        $default_servers = [ "192.168.100.10","192.168.100.20", ]                                   }
+                    }
+    if $servers == undef {
+        $servers_real = $default_servers
+                }
+        else {
+            $servers_real = $servers
+            }
 
-	package { 'ntp':
-			ensure => installed,
-			}
+    package { 'ntp':
+            ensure => installed,
+            }
 
-	service { 'ntp':
-			name => $service_name,
-			ensure => running,
-			enable => true,
-			subscribe => File['ntp.conf'],
-		}
+    service { 'ntp':
+            name => $service_name,
+            ensure => running,
+            enable => true,
+            subscribe => File['ntp.conf'],
+        }
 
-	file { 'ntp.conf':
-			path => '&frasl;etc&frasl;ntp.conf',
-			ensure => file,
-			require => Package['ntp'],
-			content => template("ntp/${conf_template}"),
-		}
+    file { 'ntp.conf':
+            path => '&frasl;etc&frasl;ntp.conf',
+            ensure => file,
+            require => Package['ntp'],
+            content => template("ntp/${conf_template}"),
+        }
 }
 </pre>
 
