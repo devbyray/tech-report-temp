@@ -2,6 +2,8 @@
 
 This template can be used for writing easy and simple technical reports. For writing a techreport you use Markdown. And you can use this template i made for free :-). "**Markdown files can be opened and edited with every simple text editor!**"
 
+If you clicked on the template file in GitHub than you see the result of an rendered Markdown file. So if you want to use the file? Check the details below!
+
 ## How to use the Tech Report template
 **Developer/Technical people version**
 
