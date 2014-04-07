@@ -1,13 +1,19 @@
 #README first!
 
-- [How to use the Tech Report template](#how-to-use-the-tech-report-template)
-
 This template can be used for writing easy and simple technical reports. For writing a techreport you use Markdown. And you can use this template i made for free :-). "**Markdown files can be opened and edited with every simple text editor!**"
 
 If you clicked on the template file in GitHub than you see the result of an rendered Markdown file. So if you want to use the file? Check the details below!
 
+#Index
+- [How to use the Tech Report template for Developers/Tech people](#developer-technical-people-version)
+- [How to use the Tech Report template for Non or less technical people](#non-or-less-technical-people-version)
+- [What is Markdown?](#what-is-markdown)
+- [Questions](#questions)
+- [Helpfull guidelines](#helpfull-guidelines)
+
+
 # How to use the Tech Report template
-**Developer/Technical people version**
+## Developer/Technical people version
 
 For the people that know how to use Git with the commandline. Follow these instructions:
 
@@ -19,7 +25,7 @@ For the people that know how to use Git with the commandline. Follow these instr
 5. I want to advice you to copy the folder and rename the date, your projectname and your First and lastname. So if there is an update for the template you can go to the folder (in the commandline/terminal) and type <code>git pull</code> so the template will be updated.
 6. To check if there is an update type <code>git status</code> in the template folder.
 
-**Non or less technical people version**
+## Non or less technical people version
 
 For the people that dont't know how to use Git with the commandline. Follow these instructions:
 
