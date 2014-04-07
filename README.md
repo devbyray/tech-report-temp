@@ -57,4 +57,4 @@ If you have a problem with an iFrame or an Youtube iframe code between the <code
 4. Click on the "encode" button
 5. Copy the code from the result textarea
 6. Paste it in your Tech report file between the <code>&lt;pre&gt;&lt;/pre&gt;</code> tags.
-7. If it doesn't work? Let me know!
+7. If it doesn't work? Let me know! :-)
