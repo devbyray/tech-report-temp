@@ -78,7 +78,7 @@ li[lang=ru] {
 _This is an note_
 
 **Javascript**
-<pre lang="java" toggle="no">
+<pre lang="js" toggle="no">
 (function(){
     var init, ed, qt, first_init, DOM, el, i, mce = 0;
 };
