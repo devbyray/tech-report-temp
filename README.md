@@ -9,6 +9,7 @@ If you clicked on the template file in GitHub than you see the result of an rend
 - [What is Markdown?](#what-is-markdown)
 - [Questions](#questions)
 - [Helpfull guidelines](#helpfull-guidelines)
+- [Use the Template with an supereasy generator](https://github.com/j3lte/project-reports) by [@j3lte](https://github.com/j3lte)
 
 
 # How to use the Tech Report template
