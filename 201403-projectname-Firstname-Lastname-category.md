@@ -39,7 +39,7 @@ _I love I love muffin candy canes marshmallow muffin powder. Jelly chupa chups o
 ## Write your code or tutorial
 
 **CSS**
-<pre lang="css" toggle="no">
+<pre lang="css">
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   body:first-of-type pre::after {
     content: 'highlight: ' attr(class);
@@ -68,7 +68,7 @@ li[lang=ru] {
 </pre>
 
 **HTML**
-<pre lang="html" toggle="no">
+<pre lang="html">
     <code>
         <article>
             <section></section>
@@ -78,14 +78,14 @@ li[lang=ru] {
 _This is an note_
 
 **Javascript**
-<pre lang="js" toggle="no">
+<pre lang="js">
 (function(){
     var init, ed, qt, first_init, DOM, el, i, mce = 0;
 };
 </pre>
 
 **Other**
-<pre lang="bash" toggle="no">
+<pre lang="bash">
 class ntp {
     case $operatingsystem {
         centos, sles, redhat: {
@@ -119,6 +119,15 @@ class ntp {
         }
 }
 </pre>
+
+**Supported languages**
+Here is a complete list of supported languages:
+
+1c-zapros, 1c-kod, abap, as, ada, amigados, apache, applescript, arduino, asp, asm, autoit, bash, c, c#, c++, coffee, css, default, delphi, dws, diff, erlang, go, haskell, ini, ilogic, java, js, less, lisp, lua, matlab, reg, miva, monkey, batch, mysql, objc, plsql, perl, pgsql, php, ps, python, r, ruby, rust, sass, scala, scheme, sh, swift, tex, tsql, vim, vb, vbnet, xhtml, yaml, zsh
+
+**Note: marking lines as important**
+You can mark some lines as important so they appear highlighted. You can specify single numbers, comma separted, a range, or a combination.	
+<pre lang="js" mark="5-10,12"> ... </pre>
 
 ----------------------------------------------------------------------
 ### Add some notes for the editor
